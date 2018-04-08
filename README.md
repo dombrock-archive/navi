@@ -1,3 +1,7 @@
+# Navi
+
+## A minimal navigation generator for static sites.
+
 1.) Place your static web files in the "web" directory (or change the code to point to another directory)
 
 2.) Insert the html ```<navigation>navigation<navigation>``` into each page that you want to contain the new navigation
