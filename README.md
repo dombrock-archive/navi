@@ -14,7 +14,7 @@ Modify each page to contain the HTML ```<navigation>navigation<navigation>``` in
 
 ### 3.) Edit the pages list:
 
-Edit the "pages" dictionary in "navi/page_list.py" to contain your page names and locations (each page must be added here manually for security). Use the Python syntax ```pages.update({"Page ID (Name/Title)":"path/to/file.html"})``` to add a new page where the KEY is the page ID (the link text as a string) and the VALUE is the file location as a sting. If you want a file to have its navigation updated but the file itself should not be included in the navigation, simple give it a NULL ID like this: ```pages.update({"NULL":"path/to/file.html"})```
+Edit the "pages" dictionary in "navi/page_list.py" to contain your page names and locations (each page must be added here manually for security). Use the Python syntax ```pages.update({"Page ID (Name/Title)":"path/to/file.html"})``` to add a new page where the KEY is the page ID (the link text as a string) and the VALUE is the file location as a sting. If you want a file to have its navigation updated but the file itself should not be included in the navigation, simply give it a NULL ID like this: ```pages.update({"NULL":"path/to/file.html"})```
 
 **NOTE:** the ```web_root``` is automatically prepended to the path. This script assumes that all files that it needs to work with are in ```web_root```.  
 
