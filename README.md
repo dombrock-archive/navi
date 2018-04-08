@@ -2,6 +2,8 @@
 
 ## A minimal navigation generator script for static sites written in Python3.
 
+![Navi :)](https://pre00.deviantart.net/2d56/th/pre/i/2016/069/b/8/navi_by_maintenancefairy-d9um379.png)
+
 ### 1.) Setup the webroot: 
 
 Place your static web files in the "web" directory (or change the "web_root" variable to point to another directory).
