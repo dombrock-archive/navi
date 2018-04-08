@@ -2,7 +2,7 @@
 
 ## A minimal navigation generator script for static sites written in Python3.
 
-![Navi :)](https://pre00.deviantart.net/2d56/th/pre/i/2016/069/b/8/navi_by_maintenancefairy-d9um379.png)
+![Navi :)](https://orig00.deviantart.net/4f58/f/2016/105/8/9/the_legend_of_zelda_navi_pagedoll_by_gabagarb-d9z1que.gif)
 
 ### 1.) Setup the webroot: 
 
