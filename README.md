@@ -1,4 +1,4 @@
-# Navi [ALPHA]
+# Navi
 
 ## A minimal navigation generator script for static sites written in Python3.
 
