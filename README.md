@@ -24,4 +24,4 @@ Edit "navi/nav-template.html" to suit your needs. This is the template file that
 
 ### 5.) Run the script:
 
-Run "navi/navi.py" from the CLI to replace the pages. Something like ```python3 navi.py```. The new files will output to the "navi/OUTPUT" directory to ensure the script is fail-safe. 
+Run "navi/navi.py" from the CLI to replace the pages. Something like ```python3 navi.py```. The new files will output to the "navi/OUTPUT" directory to ensure the script is fail-safe. You can now test the files in your output folder and if everything looks good, merge it back into your webroot. 
