@@ -10,4 +10,4 @@
 
 4.) Edit "navi/nav-template.html" to suit your needs. This is the template file that will be used to generate the navigation on all of your pages. You can use any HTML/CSS/JS here that you need. Use the syntax: ```{{Page ID}}``` to specify where each link should go in the layout. The rest will be automated. 
 
-5.) Run "navi/navi.py" from the CLI to replace the pages. Something like ```python3 navi.py```.
+5.) Run "navi/navi.py" from the CLI to replace the pages. Something like ```python3 navi.py```. The new files will output to the "navi/OUTPUT" directory to ensure the script is fail-safe. 
