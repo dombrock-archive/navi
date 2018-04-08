@@ -10,7 +10,10 @@ def Navigation():
 	nav_template = open("nav-template.html", 'r').read()
 	for nav_id, location in page_list.pages.items():
 		print(nav_id+" | "+location)
-		nav_template = nav_template.replace("{{"+nav_id+"}}", "<a href='"+location+"'>"+nav_id+"</a>")
+		if nav_id != "NULL":
+			nav_template = nav_template.replace("{{"+nav_id+"}}", "<a href='"+location+"'>"+nav_id+"</a>")
+		else:
+			print("Skipping Gen due to NULL ID for "+location)
 	return nav_template
 
 def Replace(filename, replacement):
