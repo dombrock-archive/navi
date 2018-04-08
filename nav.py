@@ -4,8 +4,7 @@ web_root = "web/"
 #dict of navigation IDs and actual page location on the server
 #used for generating (filling in) the navigation template and also to rewrite the page html
 pages = {}
-pages.update({"nav_id":"path/to/file"})
-pages.update({"test":"link-to-test.html"})
+pages.update({"test":"test.html"})
 pages.update({"Some Page":"somePage.html"})
 
 
@@ -27,4 +26,5 @@ def Replace(filename, replacement):
 
 nav = Navigation()
 
-print(Replace("test.html",nav))
+for nav_id, location in pages.items():
+	print(Replace(location,nav))
