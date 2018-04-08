@@ -3,6 +3,8 @@ import page_list
 #where are the files that we are manipulating?
 web_root = "../web/"
 
+output = "OUTPUT/"
+
 def Navigation():
 	#goes through each page and replaces the marked section with the new navigation  html
 	nav_template = open("nav-template.html", 'r').read()
@@ -22,4 +24,6 @@ def Replace(filename, replacement):
 nav = Navigation()
 
 for nav_id, location in page_list.pages.items():
+	file = open(output+location, 'w')
+	file.write(Replace(location,nav))
 	print(Replace(location,nav))
