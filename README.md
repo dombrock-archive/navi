@@ -4,13 +4,13 @@
 
 ![Navi :)](https://orig00.deviantart.net/4f58/f/2016/105/8/9/the_legend_of_zelda_navi_pagedoll_by_gabagarb-d9z1que.gif)
 
-### 1.) Setup the webroot: 
+### 1.) Setup the script: 
 
-Place your static web files in the "web" directory (or change the "web_root" variable to point to another directory).
+Place your static web files in the "web" directory (or change the "web_root" variable in "navi/config.py" to point to another directory). Change the ```url``` variable in "navi/config.py" to match the URL of your site.
 
 ### 2.) Modify your pages: 
 
-Modify each page to contain the html ```<navigation>navigation<navigation>``` in the location that you want the navigation to be generated.
+Modify each page to contain the HTML ```<navigation>navigation<navigation>``` in the location that you want the navigation to be generated.
 
 ### 3.) Edit the pages list:
 

@@ -2,5 +2,6 @@
 #used for generating (filling in) the navigation template and also to rewrite the page html
 pages = {}
 pages.update({"test":"test.html"})
+pages.update({"test2":"dir/test.html"})
 pages.update({"NULL":"test2.html"})
 pages.update({"Some Page":"somePage.html"})
