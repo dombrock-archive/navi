@@ -1,4 +1,4 @@
-# Navi
+# Navi [ALPHA]
 
 ## A minimal navigation generator for static sites.
 
@@ -10,4 +10,4 @@
 
 4.) Edit nav-template.html to suit your needs. This is a the template file that will be used to generate the navigation on all of your pages. Use the syntax: ```{{Page ID}}``` to tell specify where each link should go in the layout. The rest will be automated. 
 
-5.) Run "nav.py" from the cli to replace the pages.
+5.) Run "navi.py" from the cli to replace the pages.
